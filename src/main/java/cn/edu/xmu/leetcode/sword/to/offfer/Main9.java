@@ -1,5 +1,9 @@
 package cn.edu.xmu.leetcode.sword.to.offfer;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Stack;
+
 /**
  * @author summer
  * @date 2021/3/1 11:17
@@ -30,4 +34,30 @@ package cn.edu.xmu.leetcode.sword.to.offfer;
  */
 public class Main9 {
 
+
+    class CQueue {
+        //B存储A的逆序
+        LinkedList<Integer> A,B;
+        public CQueue() {
+            A=new LinkedList<>();
+            B=new LinkedList<>();
+        }
+
+        public void appendTail(int value) {
+            A.addLast(value);
+        }
+
+        public int deleteHead() {
+            if(!B.isEmpty()){
+                return B.removeLast();
+            }
+            if(A.isEmpty()){
+                return -1;
+            }
+            while (!A.isEmpty()){
+                B.addLast(A.removeLast());
+            }
+            return B.removeLast();
+        }
+    }
 }

@@ -57,9 +57,7 @@ public class Main6 {
     public int[] reversePrint1(ListNode head) {
         recur(head);
         int[] res = new int[tmp.size()];
-        for(int i = 0; i < res.length; i++) {
-            res[i] = tmp.get(i);
-        }
+        res=tmp.stream().mapToInt(Integer::intValue).toArray();
         return res;
     }
 
