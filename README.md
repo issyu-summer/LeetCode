@@ -7,3 +7,4 @@
 Ⅴ.对称二叉树（递归）     [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main28.java) \
 Ⅵ.平衡二叉树（左右深度差不超过1、左右子树也是平衡）->Ⅶ.计算深度（DFS\BFS）     [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main55_2.java) -> [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main55_1.java) \
 Ⅸ.顺时针打印链表（l,r,t,b）    [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main29.java) 
+Ⅹ.采购方案（双指针）     [see](/src/main/java/cn/edu/xmu/leetcode/person/Main0.java) 

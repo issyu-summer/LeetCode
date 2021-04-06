@@ -26,6 +26,9 @@ public class Main0 {
         return num>1000000007?Math.floorMod(num,1000000007):num;
     }
 
+    /**
+     * 双指针，List
+     */
     public static int purchasePlans1(int[] nums, int target) {
         int num=0;
         List<Integer> list
@@ -38,8 +41,30 @@ public class Main0 {
                 num+=(j-i);
                 i++;
             }
+            //注意细节
+            num%=1000000007;
         }
-        return num>1000000007?Math.floorMod(num,1000000007):num;
+        return num;
+    }
+
+    /**
+     * 双指针，ar
+     */
+    public static int purchasePlans2(int[] nums, int target) {
+        int num=0;
+        Arrays.sort(nums);
+        int i=0,j=nums.length-1;
+        while (i<j){
+            if(nums[i]+nums[j]>target){
+                j--;
+            }else{
+                num+=(j-i);
+                i++;
+            }
+            //注意细节
+            num%=1000000007;
+        }
+        return num;
     }
     public static void main(String[] args) {
         int []ar=new int[]{
