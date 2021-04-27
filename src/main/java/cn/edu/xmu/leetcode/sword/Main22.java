@@ -2,9 +2,8 @@ package cn.edu.xmu.leetcode.sword;
 
 /**
  * @author summer
- * @date 2021/3/3 15:40
- * 返回链表的倒数第k个节点
- * 核心在于用特殊的方法代替计算链表的长度
+ * @since  2021/3/3 15:40
+ * @see <a href="https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/">链表中倒数第k个节点</a>
  */
 public class Main22 {
 

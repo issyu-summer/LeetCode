@@ -2,8 +2,8 @@ package cn.edu.xmu.leetcode.sword;
 
 /**
  * @author summer
- * @date 2021/3/2 16:14
- * 数值的整数次方，包括符数
+ * @since  2021/3/2 16:14
+ * @see <a href="https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/">数值的整数次方</a>
  */
 public class Main16 {
 
@@ -44,6 +44,31 @@ public class Main16 {
         }
     }
 
+    /**
+     * 二分、b&1==1（b是奇数）
+     * x^n=(x^n)^(n/2)  n为偶数
+     * x^n=x(x^n)^(n/2) n为奇数
+     */
+    public double myPow1(double x, int n) {
+        if(x == 0) {
+            return 0;
+        }
+        long b = n;
+        double res = 1.0;
+        //b=-b且x=1/x;
+        if(b < 0) {
+            x = 1 / x;
+            b = -b;
+        }
+        while(b > 0) {
+            if((b & 1) == 1) {
+                res *= x;
+            }
+            x *= x;
+            b >>= 1;
+        }
+        return res;
+    }
     public static void main(String[] args) {
         //会溢出导致n不变
         System.out.println(myPow(2,-2147483648));

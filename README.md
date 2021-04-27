@@ -20,3 +20,18 @@
 Ⅹ.构建乘积数组（分成该数左边的所有数的成绩和右边所有数的乘积） [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main66.java) \
 remark:
 - 有序数组考虑二分查找
+##### 04/08:
+Ⅰ.寻找旋转排序数组中的最小值(二分)  [see](/src/main/java/cn/edu/xmu/leetcode/clockIn/Main5.java) \
+Ⅱ.第一个只出现一次的字符(HashMap)  [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main50.java) \
+Ⅲ.拿硬币(位运算)  [see](/src/main/java/cn/edu/xmu/leetcode/lcp/Main6.java) \
+Ⅳ.最大礼物价值(动态规划)  [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main47.java) \
+Ⅴ.在排序数组中查找数字(二分,还能这么玩????---查找某个数的左右边界)  [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main53_1.java) \
+remark:
+- 有序数组考虑二分查找中搜索数字的左右边界
+##### 04/27:
+Ⅰ.二叉搜索树的最近公共祖先 [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main68_1.java) \
+Ⅱ.二叉树的最近公共祖先  [see](/src/main/java/cn/edu/xmu/leetcode/sword/Main68_2.java) \
+Ⅲ.单词搜索  [see](/src/main/java/leetcode/array/Main79.java) \
+Ⅳ.BST中两数之和  [see](/src/main/java/leetcode/tree/Main653.java) \
+Ⅴ.二叉搜索树的范围和  [see](/src/main/java/leetcode/tree/Main938.java) \
+Ⅵ.单值二叉树  [see](/src/main/java/leetcode/tree/Main965.java)\

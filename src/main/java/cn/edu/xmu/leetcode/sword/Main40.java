@@ -8,10 +8,12 @@ import java.util.stream.Stream;
 
 /**
  * @author summer
- * @date 2021/3/3 19:46
+ * @since  2021/3/3 19:46
  * 最小的k个数
  */
 public class Main40 {
+
+
     //直接排序
     public int[] getLeastNumbers(int[] arr, int k) {
         List<Integer> list=

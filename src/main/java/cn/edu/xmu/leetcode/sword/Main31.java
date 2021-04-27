@@ -4,8 +4,8 @@ import java.util.Stack;
 
 /**
  * @author summer
- * @date 2021/3/8 18:31
- * 判断栈的弹出序列是不是正确的
+ * @since  2021/3/8 18:31
+ * @see <a href="https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/">栈的压入、弹出序列</a>
  */
 public class Main31 {
     public boolean validateStackSequences(int[] pushed, int[] popped) {

@@ -32,9 +32,9 @@ public class Main32_3 {
                 if (node.left != null) {
                     queue.add(node.left);
                 }
-                    if (node.right != null) {
-                        queue.add(node.right);
-                    }
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
 
             }
             if(i%2==0) {

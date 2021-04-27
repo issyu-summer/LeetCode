@@ -5,8 +5,8 @@ import java.util.Stack;
 
 /**
  * @author summer
- * @date 2021/3/2 16:58
- * 反转链表
+ * @since  2021/3/2 16:58
+ * @see <a href="https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/">反转链表</a>
  */
 public class Main24 {
  // Definition for singly-linked list.

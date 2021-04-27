@@ -3,10 +3,9 @@ package cn.edu.xmu.leetcode.sword;
 import java.util.HashSet;
 
 /**
+ * @see <a href="https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/">数组中重复的数字</a>
  * @author summer
- * @date 2021/3/1 8:06
- * 🗡☞offer：
- * 找出数组中重复的数字-----重复问题
+ * @since  2021/3/1 8:06
  */
 
 public class Main3 {

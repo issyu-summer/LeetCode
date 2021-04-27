@@ -20,6 +20,9 @@ public class Main32_2 {
       }
 
 
+    /**
+     * 从上到下
+     */
         public static List<List<Integer>> levelOrder(TreeNode root) {
             if(root == null) {
                 return null;
@@ -29,6 +32,7 @@ public class Main32_2 {
             List<List<Integer>> list=new ArrayList<>();
             while (!queue.isEmpty()){
                 List<Integer> tmp=new ArrayList<>();
+                //把该层打印完
                 for (int i=queue.size()-1;i>=0;i--){
                     TreeNode node = queue.poll();
                     tmp.add(node.val);

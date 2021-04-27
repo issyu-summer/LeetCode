@@ -3,7 +3,7 @@ package cn.edu.xmu.leetcode.sword;
 /**
  * @see <a href="https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/">25:合并两个有序列表</a><br/>
  * @author summer
- * @date 2021/3/19 12:04
+ * @since  2021/3/19 12:04
  */
 public class Main25 {
 

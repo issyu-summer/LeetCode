@@ -1,11 +1,15 @@
 package cn.edu.xmu.leetcode.sword;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.LinkedList;
 import java.util.Stack;
+import java.util.concurrent.ConcurrentLinkedDeque;
 
 /**
  * @author summer
- * @date 2021/3/7 23:35
- * 二叉树的镜像
+ * @since  2021/3/7 23:35
+ * @see <a href="https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/">二叉树的镜像</a>
  */
 public class Main27 {
 
@@ -17,12 +21,15 @@ public class Main27 {
           TreeNode(int x) { val = x; }
       }
 
-        public TreeNode mirrorTree(TreeNode root) {
+    /**
+     * 辅助栈
+     */
+    public TreeNode mirrorTree(TreeNode root) {
             if(root == null) {
                 return null;
             }
             Stack<TreeNode> stack = new Stack<>(){{add(root);}};
-            TreeNode tmp=null;
+            TreeNode tmp;
             while (!stack.isEmpty()){
                 TreeNode node=stack.pop();
                 if(node.left!=null){
@@ -37,4 +44,19 @@ public class Main27 {
             }
             return root;
         }
+
+
+    /**
+     * DFS
+     */
+    public TreeNode mirrorTree1(TreeNode root) {
+        if(root==null) {
+            return null;
+        }
+        TreeNode tmp = root.left;
+        root.left=mirrorTree1(root.right);
+        root.right=mirrorTree1(tmp);
+        return root;
+    }
+
 }

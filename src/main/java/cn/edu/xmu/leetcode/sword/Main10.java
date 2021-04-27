@@ -2,8 +2,8 @@ package cn.edu.xmu.leetcode.sword;
 
 /**
  * @author summer
- * @date 2021/3/1 19:04
- * 10-1:斐波那契数列的第n项
+ * @since  2021/3/1 19:04
+ * @see <a href="https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/">斐波那契数列</a>
  */
 public class Main10 {
 

@@ -4,7 +4,8 @@ import java.util.Stack;
 
 /**
  * @author summer
- * @date 2021/3/8 18:50
+ * @since  2021/3/8 18:50
+ * @see <a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/">包含min函数的栈</a>
  */
 public class Main30 {
     class MinStack {

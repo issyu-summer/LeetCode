@@ -2,7 +2,8 @@ package cn.edu.xmu.leetcode.sword;
 
 /**
  * @author summer
- * @date 2021/3/8 19:19
+ * @since  2021/3/8 19:19
+ * @see <a href="https://leetcode-cn.com/problems/jian-sheng-zi-lcof/">剪绳子</a>
  */
 public class Main14_1 {
 

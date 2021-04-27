@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * @author summer
- * @date 2021/3/2 11:56
- * 删除链表的节点
+ * @since  2021/3/2 11:56
+ * @see <a href="https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/">删除链表的节点</a>
  */
 public class Main18 {
 

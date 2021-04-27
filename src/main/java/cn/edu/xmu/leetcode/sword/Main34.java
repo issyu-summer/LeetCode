@@ -6,7 +6,8 @@ import java.util.List;
 
 /**
  * @author summer
- * @date 2021/3/7 22:56
+ * @since  2021/3/7 22:56
+ * @see <a href="https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/">二叉树中和为某一值的路径</a>
  */
 public class Main34 {
 

@@ -28,7 +28,9 @@ public class Main39 {
 
     }
 
-    //使用摩尔投票法,相互抵消
+    /**
+     * 使用摩尔投票法,相互抵消
+     */
     public int majorityElement1(int[] nums) {
         int x=0,votes=0;
         for (int n:nums

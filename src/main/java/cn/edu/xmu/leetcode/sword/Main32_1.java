@@ -5,8 +5,8 @@ import java.util.*;
 
 /**
  * @author summer
- * @date 2021/3/7 21:36
- *  从上到下打印树（按层打印）
+ * @since  2021/3/7 21:36
+ * @see <a href="https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/">从上到下打印树</a>
  */
 public class Main32_1 {
 
@@ -17,6 +17,9 @@ public class Main32_1 {
         TreeNode(int x) { val = x; }
     }
 
+    /**
+     * 从左到右、用队列、先进先出
+     */
     public int[] levelOrder(TreeNode root) {
         if(root == null) {
             return new int[0];
@@ -41,16 +44,5 @@ public class Main32_1 {
         return ar;
         //return list.stream().mapToInt(Integer::intValue).toArray();
         //差距有三毫秒之大
-    }
-    void bfs(TreeNode node,PriorityQueue<TreeNode> queue,List<Integer> list){
-        if(node.left==null&&node.right==null){
-            return;
-        }
-        TreeNode tmp=queue.poll();
-        list.add(tmp.val);
-        queue.add(node.left);
-        queue.add(node.right);
-        bfs(node.left,queue,list);
-        bfs(node.right,queue,list);
     }
 }

@@ -30,4 +30,5 @@ public class Main28 {
         }
         return recur(l.left,r.right)&&recur(l.right,r.left);
     }
+
 }

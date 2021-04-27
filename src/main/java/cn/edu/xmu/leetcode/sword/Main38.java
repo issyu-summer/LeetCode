@@ -9,8 +9,8 @@ import java.util.stream.IntStream;
 
 /**
  * @author summer
- * @date 2021/3/3 16:30
- * 字符串的全排列
+ * @since  2021/3/3 16:30
+ * @see <a href="https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/">字符串的排列</a>
  */
 public class Main38 {
 
@@ -48,26 +48,35 @@ public class Main38 {
     }
 
 
-    //全排列的固定位置交换法
+    /**
+     *全排列的固定位置交换法
+     */
     List<String> res = new LinkedList<>();
     char[] c;
     public String[] permutation1(String s) {
         c = s.toCharArray();
         dfs(0);
-        return res.toArray(new String[res.size()]);
+        return res.toArray(new String[0]);
     }
     void dfs(int x) {
         if(x == c.length - 1) {
-            res.add(String.valueOf(c));      // 添加排列方案
+            res.add(String.valueOf(c));
+            // 添加排列方案
             return;
         }
         HashSet<Character> set = new HashSet<>();
         for(int i = x; i < c.length; i++) {
-            if(set.contains(c[i])) continue; // 重复，因此剪枝
+            if(set.contains(c[i])) {
+                continue;
+                // 重复，因此剪枝
+            }
             set.add(c[i]);
-            swap(i, x);                      // 交换，将 c[i] 固定在第 x 位
-            dfs(x + 1);                      // 开启固定第 x + 1 位字符
-            swap(i, x);                      // 恢复交换
+            swap(i, x);
+            // 交换，将 c[i] 固定在第 x 位
+            dfs(x + 1);
+            // 开启固定第 x + 1 位字符
+            swap(i, x);
+            // 恢复交换
         }
     }
 
