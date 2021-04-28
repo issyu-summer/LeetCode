@@ -1,6 +1,6 @@
 //package wangyi;
 //
-//import cn.edu.xmu.leetcode.sword.Main52;
+//import leetcode.sword.Main52;
 //
 //import java.util.ArrayList;
 //import java.util.HashMap;
