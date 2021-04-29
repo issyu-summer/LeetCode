@@ -21,7 +21,7 @@
 remark:
 - 有序数组考虑二分查找
 ##### 04/08:
-Ⅰ.寻找旋转排序数组中的最小值(二分)  [see](/src/main/java/cn/edu/xmu/leetcode/clockIn/Main5.java) \
+Ⅰ.寻找旋转排序数组中的最小值(二分)  [✎﹏ℳ๓₯°](/src/main/java/cn/edu/xmu/leetcode/clockIn/Main5.java) \
 Ⅱ.第一个只出现一次的字符(HashMap)  [see](/src/main/java/leetcode/sword/Main50.java) \
 Ⅲ.拿硬币(位运算)  [see](/src/main/java/cn/edu/xmu/leetcode/lcp/Main6.java) \
 Ⅳ.最大礼物价值(动态规划)  [see](/src/main/java/leetcode/sword/Main47.java) \
@@ -40,4 +40,10 @@ remark:
 Ⅱ.单词拆分【DP】  [see](/src/main/java/leetcode/dp/Main139.java) \
 Ⅲ.队列的最大值【双端队列和普通队列共同维护一个最大值队列】  [see](/src/main/java/leetcode/sword/Main59_2.java) \
 Ⅳ.滑动窗口中的最大值【使用非严格递减的双端队列降低复杂度】  [see](/src/main/java/leetcode/sword/Main59_1.java) \
-Ⅴ.最长不含重复字符的子字符串  [see](/src/main/java/leetcode/sword/Main48.java) \
+Ⅴ.最长不含重复字符的子字符串【动态规划(区间)】  [see](/src/main/java/leetcode/sword/Main48.java) \
+##### 04/29:
+Ⅰ.青蛙过河【DP】 [see](/src/main/java/leetcode/dp/Main403.java) \
+Ⅱ.最长回文子串【DP】【暴力枚举】【中心扩散】  [see](/src/main/java/leetcode/dp/Main5.java) \
+Ⅲ.最小路径和【DP】  [see](/src/main/java/leetcode/dp/Main64.java) \
+Ⅳ.爬楼梯、青蛙跳台阶、斐波那切数列【DP】  [see](/src/main/java/leetcode/dp/Main70.java) \
+Ⅴ.不同的二叉搜索树【DP】  [see](/src/main/java/leetcode/dp/Main96.java) \
