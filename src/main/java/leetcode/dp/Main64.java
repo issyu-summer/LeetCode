@@ -16,6 +16,9 @@ public class Main64 {
         System.out.println(main64.minPathSum(gird));
     }
 
+    /**
+     * DP
+     */
     public int minPathSum(int[][] grid) {
         int row=grid.length,col=grid[0].length;
         int [][]path=new int[row][col];
