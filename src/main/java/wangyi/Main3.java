@@ -1,7 +1,5 @@
 package wangyi;
 
-import cn.edu.xmu.leetcode.Main;
-
 import java.util.Scanner;
 
 /**

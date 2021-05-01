@@ -53,3 +53,10 @@ remark:
 Ⅲ.验证二叉搜索树【树、DFS、中序遍历】  [✎﹏ℳ๓₯°](/src/main/java/leetcode/tree/Main98.java) \
 Ⅳ.相同的树【树、DFS】  [✎﹏ℳ๓₯°](/src/main/java/leetcode/tree/Main100.java) \
 Ⅴ.路径总和【树、DFS】  [✎﹏ℳ๓₯°](/src/main/java/leetcode/tree/Main112.java) \
+##### 05/01:
+Ⅰ.交换链表中的节点【链表、快慢指针】 [✎﹏ℳ๓₯°](/src/main/java/leetcode/linked/Main1721.java) \
+Ⅱ.两两交换链表中的节点【递归-不懂、迭代】  [✎﹏ℳ๓₯°](/src/main/java/leetcode/linked/Main24.java) \
+Ⅲ.链表排序【暂未实现、花费一天单独搞定所有的】  [✎﹏ℳ๓₯°](/src/main/java/leetcode/linked/Main148.java) \
+Ⅳ.旋转链表【快慢双指针、官方题解神之一手】  [✎﹏ℳ๓₯°](/src/main/java/leetcode/linked/Main61.java) \
+Ⅴ.删除链表的倒数第N个节点【快慢双指针、栈的先进后出】  [✎﹏ℳ๓₯°](/src/main/java/leetcode/linked/Main19.java) \
+Ⅵ.链表中的下一个更大节点【栈】  [✎﹏ℳ๓₯°](/src/main/java/leetcode/linked/Main1019.java) \
